@@ -1,20 +1,30 @@
-categories: ["cs.CV", "cs.LG", "cs.AI"]
+categories: ["cs.AI", "cs.CL", "cs.LG", "cs.CV", "cs.HC", "cs.RO"]
 keywords:
-  - "open vocabulary"
-  - "open-vocabulary"
-  - "open vocabulary segmentation"
-  - "open-vocabulary segmentation"
-  - "vision language model"
-  - "training-free"
-  - "training free"
+  # 大模型 Agent 相关
+  - "LLM agent"
+  - "large language model agent"
+  - "autonomous agent"
+  - "vision-language agent"
 
-# exclude_keywords: # 选择排除的关键词
-#   - "Large Language Model"
-#   - "LLM"
-  
-logic: "AND"                 # 组间逻辑：categories 与 keywords 间 AND/OR
-max_results: 30
-sort_by: "lastUpdatedDate"  # 还可以是submittedDate 建议改成lastUpdatedDate按更新时间排，能捞到v2/v3的“新增”
+  # 计算机操作智能体相关
+  - "computer-using agent"
+  - "GUI agent"
+  - "UI agent"
+  - "web agent"
+  - "software-using agent"
+  - "GUI interaction"
+  - "tutorial video understanding"
+  - "device control agent"
+
+  # 世界模型相关
+  - "world model"
+  - "world models"
+  - "generative world model"
+  - "action model"
+
+logic: "AND" 
+max_results: 100
+sort_by: "lastUpdatedDate"
 sort_order: "descending"
 
 # zh / en / both
