@@ -22,7 +22,7 @@ keywords:
   - "generative world model"
   - "action model"
 
-logic: "AND" 
+logic: "OR" 
 max_results: 100
 sort_by: "lastUpdatedDate"
 sort_order: "descending"
