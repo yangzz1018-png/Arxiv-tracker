@@ -49,7 +49,7 @@ email:
   detail: "full"  # simple / full
   max_items: 30
   attach_md: true  # 是否开启Markdown附件
-  attach_pdf: false  # 是否开启PDF附件
+  attach_pdf: true  # 是否开启PDF附件
 
 # —— LLM（DeepSeek/OpenAI 兼容） ——
 llm:
